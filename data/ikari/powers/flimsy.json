@@ -1,0 +1,78 @@
+{
+  "type": "apoli:multiple",
+  "flightless": {
+    "type": "apoli:stacking_status_effect",
+    "min_stacks": -2,
+    "max_stacks": 1,
+    "tick-rate": 10,
+    "duration_per_stack": 200,
+    "effect": {
+      "effect": "icarus:flightless",
+      "is_ambient": true,
+      "show_particles": false,
+      "show_icon": true
+    },
+    "condition": {
+      "type": "apoli:all_of",
+      "conditions": [
+        {
+          "type": "apoli:mod_loaded",
+          "mod": "icarus",
+          "inverted": false
+        },
+        {
+          "type": "apoli:any_of",
+          "conditions": [
+            {
+              "type": "apoli:on_fire"
+            },
+            {
+              "type": "apoli:in_rain"
+            },
+            {
+              "type": "apoli:submerged_in",
+              "fluid": "minecraft:water"
+            },
+            {
+              "type": "apoli:fluid_height",
+              "fluid": "minecraft:water",
+              "comparison": ">",
+              "compare_to": 0
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "prevent_elytra": {
+    "type": "apoli:prevent_elytra_flight",
+    "condition": {
+      "type": "apoli:all_of",
+      "conditions": [
+        {
+          "type": "apoli:mod_loaded",
+          "mod": "icarus",
+          "inverted": true
+        },
+        {
+          "type": "apoli:any_of",
+          "conditions": [
+            {
+              "type": "apoli:on_fire"
+            },
+            {
+              "type": "apoli:submerged_in",
+              "fluid": "minecraft:water"
+            },
+            {
+              "type": "apoli:fluid_height",
+              "fluid": "minecraft:water",
+              "comparison": ">",
+              "compare_to": 0
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

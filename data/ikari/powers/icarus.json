@@ -1,0 +1,27 @@
+{
+  "type": "apoli:action_over_time",
+  "entity_action": {
+    "type": "apoli:set_on_fire",
+    "duration": 6
+  },
+  "interval": 20,
+  "condition": {
+    "type": "apoli:all_of",
+    "conditions": [
+      {
+        "type": "apoli:fall_flying"
+      },
+      {
+        "type": "apoli:block_collision",
+        "block_condition": {
+          "type": "apoli:height",
+          "comparison": ">",
+          "compare_to": 288
+        }
+      },
+      {
+        "type": "apoli:exposed_to_sun"
+      }
+    ]
+  }
+}

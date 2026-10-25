@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "ikari:wings",
+    "ikari:aerial_combatant",
+    "ikari:icarus",
+    "ikari:hollow_bones",
+    "ikari:flimsy",
+    "ikari:carnivore"
+  ],
+  "icon": "minecraft:quartz",
+  "order": 1,
+  "impact": 3
+}

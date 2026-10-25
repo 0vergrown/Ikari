@@ -1,0 +1,16 @@
+{
+  "origin.ikari.ikari.name": "Ikari",
+  "origin.ikari.ikari.description": "Ikari are carnivorous bird people. They hunt by flying low, weaving through obstacles to catch their prey.",
+  "power.ikari.wings.name": "Wings!",
+  "power.ikari.wings.description": "Your wings let you fly under your own power at low altitudes.\n\nYou need to stay light to fly fast, so heavy armor slows you down considerably.",
+  "power.ikari.hollow_bones.name": "Hollow Bones",
+  "power.ikari.hollow_bones.description": "Ikari evolved hollow bones, much like a bird's, so they could fly.\n\nThat lightness leaves them far more fragile.",
+  "power.ikari.icarus.name": "Icarus",
+  "power.ikari.icarus.description": "Fly too close to the sun and your wings burn up.",
+  "power.ikari.flimsy.name": "Flimsy",
+  "power.ikari.flimsy.description": "If you get wet or catch fire, your wings stop working for a little while.",
+  "power.ikari.carnivore.name": "Carnivore",
+  "power.ikari.carnivore.description": "You can only eat meat. Vegetables are inedible to you.",
+  "power.ikari.aerial_combatant.name": "Aerial Combatant",
+  "power.ikari.aerial_combatant.description": "While you glide with an Elytra, your attacks hit much harder."
+}

@@ -1,0 +1,22 @@
+{
+  "type": "apoli:multiple",
+  "icarus_wings": {
+    "type": "apoli:wings",
+    "wings_type": "icarus:white_feathered_wings",
+    "condition": {
+      "type": "apoli:mod_loaded",
+      "mod": "icarus",
+      "inverted": false
+    }
+  },
+  "vanilla_wings": {
+    "type": "apoli:elytra_flight",
+    "render_elytra": true,
+    "texture_location": "minecraft:textures/entity/elytra.png",
+    "condition": {
+      "type": "apoli:mod_loaded",
+      "mod": "icarus",
+      "inverted": true
+    }
+  }
+}
